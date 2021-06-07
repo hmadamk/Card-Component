@@ -1,0 +1,80 @@
+:root{
+	--pg:#19a1ad;
+
+}
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:arial;
+	background:var(--pg);
+	
+}
+.svgImg1{
+	background:url(SVG/bg-pattern-top.svg)no-repeat;
+	background-position:-30vw -70vh;
+	width:100vw;
+	height:100vh;
+}
+.svgImg2{
+	background:url(SVG/bg-pattern-bottom.svg)no-repeat;
+	background-position:50vw 40vh;
+	width:100vw;
+	height:100vh;
+}
+.container{
+	margin:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.card{
+	width:350px;
+	background:#f2f2f2;
+	border-radius:10px;
+	text-align:center;
+	margin-top:120px;
+}
+.card img{
+	border-radius:10px 10px 0 0;
+}
+.card div img{
+	padding:8px;
+	background:#fff;
+	border-radius:50%;
+	margin-top:-60px;
+	margin-bottom:20px;
+}
+.card div h1{
+	font-size:20px;
+	margin-bottom:10px;
+}
+.card div h1 span{
+	color:#777;
+	font-weight:200;
+	margin-left:5px;
+}
+.card div > span {
+	color:#777;
+}
+.card div span h1{
+	color:#000;
+}
+.card div .in{
+	display:flex;
+	border-top:.1px solid #ccc;
+	margin-top:20px;
+}
+.card div .in span h1{
+	font-size:20px;
+}
+.card div .in span{
+	margin:15px;
+}
+@media (max-width:400px){
+	.svgImg1{
+		background-position:-200vw -90vh;
+	}
+}
