@@ -14,7 +14,7 @@ body{
 }
 .svgImg1{
 	background:url(SVG/bg-pattern-top.svg)no-repeat;
-	background-position:-30vw -70vh;
+	background-position:-20vw -70vh;
 	width:100vw;
 	height:100vh;
 }
@@ -59,8 +59,10 @@ body{
 .card div > span {
 	color:#777;
 }
-.card div span h1{
+.card div span h2{
 	color:#000;
+	font-size:20px;
+	margin-bottom:10px;
 }
 .card div .in{
 	display:flex;
